@@ -1,0 +1,11 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="miGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="40" height="40" rx="12" fill="url(#miGradient)" />
+  <path d="M10 26 L16 12 L22 24 L28 8 L34 26" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="50" y="26" font-family="'Segoe UI', 'Helvetica', 'Arial', sans-serif" font-size="18" font-weight="700" fill="#1f2937">Magic Import</text>
+</svg>
