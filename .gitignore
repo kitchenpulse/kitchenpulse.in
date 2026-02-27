@@ -1,1 +1,76 @@
+# OS Files
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# WordPress Core (if using separate installation)
+/wordpress/
+/wp-admin/
+/wp-includes/
+
+# WordPress Configuration (sensitive files)
+wp-config.php
+wp-config-local.php
+
+# Database
+*.sql
+*.sql.gz
+.db
+*.sqlite
+*.sqlite3
+
+# WordPress Uploads and Generated Files
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backup-*
+
+# Plugin & Theme Development
+/wp-content/plugins/*/node_modules/
+/wp-content/plugins/*/.git
+/wp-content/themes/*/node_modules/
+/wp-content/themes/*/.git
+
+# Package managers
+node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Build & Dist
+dist/
+build/
+.cache/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.env
+.env.local
+.env.*.local
+
+# Netlify
+.netlify/
+netlify.toml.local
+.netlify/cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# OS generated files
+*.pem
+*.key
+.htaccess.bak
